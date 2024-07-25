@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chart.js Live Update</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="menu">
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+            <div class="dropdown-elements" id="bubblesort">Bubblesort</div>
+            <div class="dropdown-elements" id="quicksort">Quicksort</div>
+            <div class="dropdown-elements" id="mergesort">Mergesort</div>
+            <div class="dropdown-elements" id="heapsort">Heapsort</div>
+            <div class="dropdown-elements" id="insertionsort">Insertionsort</div>
+            <div class="dropdown-elements" id="selectionsort">Selectionsort</div>
+            <div class="dropdown-elements" id="shellsort">Shellsort</div>
+            <div class="dropdown-elements" id="radixsort">Radixsort</div>
+            <div class="dropdown-elements" id="countingsort">Countingsort</div>
+            <div class="dropdown-elements" id="bucketsort">Bucketsort</div>
+        </div>
+    </div>
+    <input type="text" id="numbers">
+    <button id="random">Random</button>
+    <button id="submit">Submit</button>
+</div>
+<canvas id="myChart" width="400" height="200"></canvas>
+</body>
+</html>
